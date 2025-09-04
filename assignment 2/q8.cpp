@@ -12,6 +12,7 @@ int main(){
     int  n = arr.size();
     if(n == 0){
         cnt = 0;
+        cout << "As the no. of elements in arr is '0' so the no. of distinct elements is:" << cnt << endl;
         return 0;
     }
     for(int i = 1;i<n;i++){
@@ -19,5 +20,6 @@ int main(){
             cnt++;
         }
     }
-    cout << cnt;
+    cout << "The no. of distinct elements are: " << cnt;
+
 }
